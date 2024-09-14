@@ -36,12 +36,13 @@ for each wear category.</p>
 <p align="justify">
 8. Visulaize the sequence patterns using matplotlib.
 </p>
+
 ### Program:
 ```
 NAME : KEERTHANA S
 REG NO : 212222230066
 ```
-```python
+```PYTHON
 from collections import defaultdict
 from itertools import combinations
 # Function to generate candidate k-item sequences
@@ -116,12 +117,10 @@ else:
  print("No frequent sequential patterns found in Party Wear.")
 ```
 ### Output:
-### Output:
-![Screenshot 2024-08-24 112224](https://github.com/user-attachments/assets/72d601bf-0323-4575-8f62-61eba088a75f)
-
+![image](https://github.com/Yamunaasri/WDM_EXP3/assets/115707860/d76fbfa9-c426-43e7-8f10-1ce48825a1f0)
 
 ### Visualization:
-```python
+```PYTHON
 import matplotlib.pyplot as plt
 
 # Function to visualize frequent sequential patterns with a line plot
@@ -147,10 +146,11 @@ visualize_patterns_line(bottom_wear_result, 'Bottom Wear')
 visualize_patterns_line(party_wear_result, 'Party Wear')
 ```
 ### Output:
-![Screenshot 2024-09-14 085933](https://github.com/user-attachments/assets/5e363e1b-fa15-4390-b381-95bd0f692fd5)
+![image](https://github.com/Yamunaasri/WDM_EXP3/assets/115707860/659b6555-9344-4d7e-8e19-f431752ff556)
 
-![Screenshot 2024-09-14 090015](https://github.com/user-attachments/assets/ccd99211-eafa-485b-9f41-72ce3c761725)
+![image](https://github.com/Yamunaasri/WDM_EXP3/assets/115707860/2d5e8df0-bb6e-4adf-a70f-c3e9662d4468)
 
+![image](https://github.com/Yamunaasri/WDM_EXP3/assets/115707860/1044d5d5-60a0-47a1-bd18-af135ca66022)
 
 ### Result:
 Thus the implementation of the GSP algorithm in python has been successfully executed.
